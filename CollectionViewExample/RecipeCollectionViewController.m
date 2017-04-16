@@ -9,7 +9,7 @@
 #import "RecipeCollectionViewController.h"
 
 @interface RecipeCollectionViewController () {
-    NSArray *recipeImages;
+    UInt32 numSteps;
 }
 @end
 
@@ -17,17 +17,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    recipeImages = [NSArray arrayWithObjects:
-                    @"GreenApple.gif", @"Orange.gif", @"Pear.gif",
-                    @"GreenApple.gif", @"Orange.gif", @"Pear.gif",
-                    @"GreenApple.gif", @"Orange.gif", @"Pear.gif",
-                    @"GreenApple.gif", @"Orange.gif", @"Pear.gif",
-                    @"RedApple.gif", @"Strawberry.gif", nil];
+    numSteps = 8;
 }
 
 - (NSInteger)collectionView:(UICollectionView *)collectionView
      numberOfItemsInSection:(NSInteger)section {
-    return 24;
+    return numSteps * 3;
 }
 
 
@@ -38,12 +33,15 @@
     UICollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:identifier
                                                                            forIndexPath:indexPath];
     
-    cell.backgroundColor = [UIColor blackColor];
-
+    UIButton *recipeImageView = (UIButton *)[cell viewWithTag:20];
+    recipeImageView.backgroundColor = [UIColor blackColor];
+    
     return cell;
 }
 
-
+- (IBAction)drumButtonClicked:(id)sender {
+    NSLog(@"Clicked");
+}
 
 
 - (void)didReceiveMemoryWarning {
