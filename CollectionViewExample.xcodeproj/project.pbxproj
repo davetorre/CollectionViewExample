@@ -9,10 +9,16 @@
 /* Begin PBXBuildFile section */
 		C859F6C11EA2EC1000F0AD0E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C859F6C01EA2EC1000F0AD0E /* main.m */; };
 		C859F6C41EA2EC1000F0AD0E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C859F6C31EA2EC1000F0AD0E /* AppDelegate.m */; };
-		C859F6C71EA2EC1000F0AD0E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C859F6C61EA2EC1000F0AD0E /* ViewController.m */; };
+		C859F6C71EA2EC1000F0AD0E /* RecipeCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C859F6C61EA2EC1000F0AD0E /* RecipeCollectionViewController.m */; };
 		C859F6CA1EA2EC1000F0AD0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C859F6C81EA2EC1000F0AD0E /* Main.storyboard */; };
 		C859F6CC1EA2EC1000F0AD0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C859F6CB1EA2EC1000F0AD0E /* Assets.xcassets */; };
 		C859F6CF1EA2EC1000F0AD0E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C859F6CD1EA2EC1000F0AD0E /* LaunchScreen.storyboard */; };
+		C859F6E01EA2F4C300F0AD0E /* GreenApple.gif in Resources */ = {isa = PBXBuildFile; fileRef = C859F6DB1EA2F4C300F0AD0E /* GreenApple.gif */; };
+		C859F6E11EA2F4C300F0AD0E /* Orange.gif in Resources */ = {isa = PBXBuildFile; fileRef = C859F6DC1EA2F4C300F0AD0E /* Orange.gif */; };
+		C859F6E21EA2F4C300F0AD0E /* Pear.gif in Resources */ = {isa = PBXBuildFile; fileRef = C859F6DD1EA2F4C300F0AD0E /* Pear.gif */; };
+		C859F6E31EA2F4C300F0AD0E /* RedApple.gif in Resources */ = {isa = PBXBuildFile; fileRef = C859F6DE1EA2F4C300F0AD0E /* RedApple.gif */; };
+		C859F6E41EA2F4C300F0AD0E /* Strawberry.gif in Resources */ = {isa = PBXBuildFile; fileRef = C859F6DF1EA2F4C300F0AD0E /* Strawberry.gif */; };
+		C859F6E91EA3063E00F0AD0E /* MyLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = C859F6E81EA3063E00F0AD0E /* MyLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +26,18 @@
 		C859F6C01EA2EC1000F0AD0E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C859F6C21EA2EC1000F0AD0E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C859F6C31EA2EC1000F0AD0E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C859F6C51EA2EC1000F0AD0E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C859F6C61EA2EC1000F0AD0E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C859F6C51EA2EC1000F0AD0E /* RecipeCollectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RecipeCollectionViewController.h; sourceTree = "<group>"; };
+		C859F6C61EA2EC1000F0AD0E /* RecipeCollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecipeCollectionViewController.m; sourceTree = "<group>"; };
 		C859F6C91EA2EC1000F0AD0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C859F6CB1EA2EC1000F0AD0E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C859F6CE1EA2EC1000F0AD0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C859F6D01EA2EC1000F0AD0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C859F6DB1EA2F4C300F0AD0E /* GreenApple.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = GreenApple.gif; sourceTree = "<group>"; };
+		C859F6DC1EA2F4C300F0AD0E /* Orange.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Orange.gif; sourceTree = "<group>"; };
+		C859F6DD1EA2F4C300F0AD0E /* Pear.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Pear.gif; sourceTree = "<group>"; };
+		C859F6DE1EA2F4C300F0AD0E /* RedApple.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = RedApple.gif; sourceTree = "<group>"; };
+		C859F6DF1EA2F4C300F0AD0E /* Strawberry.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Strawberry.gif; sourceTree = "<group>"; };
+		C859F6E81EA3063E00F0AD0E /* MyLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyLayout.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,13 +72,19 @@
 			children = (
 				C859F6C21EA2EC1000F0AD0E /* AppDelegate.h */,
 				C859F6C31EA2EC1000F0AD0E /* AppDelegate.m */,
-				C859F6C51EA2EC1000F0AD0E /* ViewController.h */,
-				C859F6C61EA2EC1000F0AD0E /* ViewController.m */,
+				C859F6C51EA2EC1000F0AD0E /* RecipeCollectionViewController.h */,
+				C859F6C61EA2EC1000F0AD0E /* RecipeCollectionViewController.m */,
 				C859F6C81EA2EC1000F0AD0E /* Main.storyboard */,
 				C859F6CB1EA2EC1000F0AD0E /* Assets.xcassets */,
 				C859F6CD1EA2EC1000F0AD0E /* LaunchScreen.storyboard */,
 				C859F6D01EA2EC1000F0AD0E /* Info.plist */,
+				C859F6DB1EA2F4C300F0AD0E /* GreenApple.gif */,
+				C859F6DC1EA2F4C300F0AD0E /* Orange.gif */,
+				C859F6DD1EA2F4C300F0AD0E /* Pear.gif */,
+				C859F6DE1EA2F4C300F0AD0E /* RedApple.gif */,
+				C859F6DF1EA2F4C300F0AD0E /* Strawberry.gif */,
 				C859F6BF1EA2EC1000F0AD0E /* Supporting Files */,
+				C859F6E81EA3063E00F0AD0E /* MyLayout.m */,
 			);
 			path = CollectionViewExample;
 			sourceTree = "<group>";
@@ -139,8 +157,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				C859F6CF1EA2EC1000F0AD0E /* LaunchScreen.storyboard in Resources */,
+				C859F6E11EA2F4C300F0AD0E /* Orange.gif in Resources */,
+				C859F6E21EA2F4C300F0AD0E /* Pear.gif in Resources */,
+				C859F6E31EA2F4C300F0AD0E /* RedApple.gif in Resources */,
 				C859F6CC1EA2EC1000F0AD0E /* Assets.xcassets in Resources */,
+				C859F6E01EA2F4C300F0AD0E /* GreenApple.gif in Resources */,
 				C859F6CA1EA2EC1000F0AD0E /* Main.storyboard in Resources */,
+				C859F6E41EA2F4C300F0AD0E /* Strawberry.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,7 +174,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C859F6C71EA2EC1000F0AD0E /* ViewController.m in Sources */,
+				C859F6C71EA2EC1000F0AD0E /* RecipeCollectionViewController.m in Sources */,
+				C859F6E91EA3063E00F0AD0E /* MyLayout.m in Sources */,
 				C859F6C41EA2EC1000F0AD0E /* AppDelegate.m in Sources */,
 				C859F6C11EA2EC1000F0AD0E /* main.m in Sources */,
 			);
